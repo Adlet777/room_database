@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.info.InfoFragment"
+        android:padding="24dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+            android:text="id_field"
+            android:layout_width="409dp"
+            android:layout_height="40dp"
+            android:id="@+id/id_field"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="70dp" />
+
+    <TextView
+            android:text="title_field"
+            android:layout_width="409dp"
+            android:layout_height="40dp"
+            android:id="@+id/title_field"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_field"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="description_field"
+            android:layout_width="409dp"
+            android:layout_height="40dp"
+            android:id="@+id/description_field"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_field"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="status_field"
+            android:layout_width="409dp"
+            android:layout_height="40dp"
+            android:id="@+id/status_field"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/description_field"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="category_field"
+            android:layout_width="409dp"
+            android:layout_height="40dp"
+            android:id="@+id/category_field"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/status_field"
+            android:layout_marginTop="20dp" />
+
+    <TextView
+            android:text="duration_field"
+            android:layout_width="409dp"
+            android:layout_height="40dp"
+            android:id="@+id/duration_field"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/category_field"
+            android:layout_marginTop="20dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

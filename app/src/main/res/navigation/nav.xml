@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_listFragment_to_addFragment"
             app:destination="@id/addFragment" />
+        <action
+                android:id="@+id/action_listFragment_to_infoFragment"
+                app:destination="@id/infoFragment" />
     </fragment>
     <fragment
         android:id="@+id/addFragment"
@@ -22,5 +25,17 @@
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/infoFragment"
+            android:name="com.example.myapplication.fragments.info.InfoFragment"
+            android:label="Info"
+            tools:layout="@layout/fragment_info" >
+        <argument
+                android:name="currentTodoObject"
+                app:argType="com.example.myapplication.data.Todo" />
+        <action
+                android:id="@+id/action_infoFragment_to_listFragment"
+                app:destination="@id/listFragment" />
     </fragment>
 </navigation>
